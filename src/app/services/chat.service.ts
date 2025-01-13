@@ -175,6 +175,7 @@ saveImageMessage = async(file: any) => {
 }
   // Requests permissions to show notifications.
   // Requests permissions to show notifications.
+// Requests permissions to show notifications.
 requestNotificationsPermissions = async () => {
   console.log('Requesting notifications permission...');
   const permission = await Notification.requestPermission();
